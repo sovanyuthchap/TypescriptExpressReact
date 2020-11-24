@@ -1,0 +1,35 @@
+.Dashboard {
+  overflow-x: hidden;
+
+  .Search_Box {
+    margin-bottom: 3.75rem;
+  }
+  .thumb {
+    $cm-w: 70px;
+    .Thumbnails_Card {
+      &:before {
+        content: '';
+        height: 150px;
+        width: $cm-w;
+        background-image: url('https://res.cloudinary.com/salo-cms/image/upload/f_auto,q_auto,fl_lossy/v1573816660/searidge/srt/camera-location.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+        background-position: left;
+        margin-top: 30px;
+      }
+    }
+    .Thumbnails__Wrapper {
+      height: 200px;
+    }
+    .Thumbnails__ScrubberWrapper {
+      img {
+        height: 150px;
+      }
+    }
+    .Indicator,
+    .Thumbnails__ScrubberWrapper {
+      margin-left: $cm-w + 0px;
+    }
+  } // thumb
+} // Dashboard

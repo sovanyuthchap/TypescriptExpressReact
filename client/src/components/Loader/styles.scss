@@ -1,0 +1,12 @@
+.LoaderRotate {
+  display: flex;
+  height: 100vh;
+  width: calc(100vw - 60px);
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  .Rotate {
+    animation: rotate 2s linear infinite;
+  }
+} // LoaderRotate
